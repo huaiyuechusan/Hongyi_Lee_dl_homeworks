@@ -1,0 +1,63 @@
+{'dataset_root': '../input/ml2022spring-hw13/food11-hw13', 'save_dir': './outputs', 'exp_name': 'simple_baseline', 'batch_size': 64, 'lr': 0.0005, 'seed': 20220013, 'loss_fn_type': 'KD', 'weight_decay': 0, 'grad_norm_max': 10, 'n_epochs': 20, 'patience': 300}
+{'dataset_root': 'E:\\leedl-tutorial\\Homework\\HW3_CNN\x0cood11', 'save_dir': './outputs', 'exp_name': 'simple_baseline', 'batch_size': 64, 'lr': 0.0005, 'seed': 20220013, 'loss_fn_type': 'KD', 'weight_decay': 0, 'grad_norm_max': 10, 'n_epochs': 20, 'patience': 300}
+{'dataset_root': 'E:\\leedl-tutorial\\Homework\\HW3_CNN\\food11', 'save_dir': './outputs', 'exp_name': 'simple_baseline', 'batch_size': 64, 'lr': 0.0005, 'seed': 20220013, 'loss_fn_type': 'KD', 'weight_decay': 0, 'grad_norm_max': 10, 'n_epochs': 20, 'patience': 300}
+{'dataset_root': 'E:\\deeplearning_dataset\\food11-hw13', 'save_dir': './outputs', 'exp_name': 'simple_baseline', 'batch_size': 64, 'lr': 0.0005, 'seed': 20220013, 'loss_fn_type': 'KD', 'weight_decay': 0, 'grad_norm_max': 10, 'n_epochs': 20, 'patience': 300}
+device: cuda
+{'dataset_root': 'E:\\deeplearning_dataset\\food11-hw13', 'save_dir': './outputs', 'exp_name': 'simple_baseline', 'batch_size': 64, 'lr': 0.0005, 'seed': 20220013, 'loss_fn_type': 'KD', 'weight_decay': 0, 'grad_norm_max': 10, 'n_epochs': 20, 'patience': 300}
+device: cuda
+device: cuda
+device: cuda
+{'dataset_root': 'E:\\deeplearning_dataset\\food11-hw13', 'save_dir': './outputs', 'exp_name': 'simple_baseline', 'batch_size': 64, 'lr': 0.0005, 'seed': 20220013, 'loss_fn_type': 'KD', 'weight_decay': 0, 'grad_norm_max': 10, 'n_epochs': 20, 'patience': 300}
+device: cuda
+[ Train | 001 / 020 ] loss = 1.13295 acc = 0.27002
+[ Val | 001 / 020 ] loss = 1.04070 acc = 0.31370
+Best model found at epoch 1. saving model. acc=0.31370
+[ Train | 002 / 020 ] loss = 1.02301 acc = 0.34604
+[ Val | 002 / 020 ] loss = 0.98509 acc = 0.35539
+Best model found at epoch 2. saving model. acc=0.35539
+[ Train | 003 / 020 ] loss = 0.98210 acc = 0.36935
+[ Val | 003 / 020 ] loss = 0.95344 acc = 0.37085
+Best model found at epoch 3. saving model. acc=0.37085
+[ Train | 004 / 020 ] loss = 0.95641 acc = 0.38840
+[ Val | 004 / 020 ] loss = 0.93171 acc = 0.39446
+Best model found at epoch 4. saving model. acc=0.39446
+[ Train | 005 / 020 ] loss = 0.93638 acc = 0.39864
+[ Val | 005 / 020 ] loss = 0.92869 acc = 0.39096
+[ Train | 006 / 020 ] loss = 0.91616 acc = 0.41456
+[ Val | 006 / 020 ] loss = 0.90544 acc = 0.41603
+Best model found at epoch 6. saving model. acc=0.41603
+[ Train | 007 / 020 ] loss = 0.90170 acc = 0.42702
+[ Val | 007 / 020 ] loss = 0.90130 acc = 0.41603
+[ Train | 008 / 020 ] loss = 0.88953 acc = 0.43503
+[ Val | 008 / 020 ] loss = 0.87821 acc = 0.44548
+Best model found at epoch 8. saving model. acc=0.44548
+[ Train | 009 / 020 ] loss = 0.87952 acc = 0.44273
+[ Val | 009 / 020 ] loss = 0.88587 acc = 0.42711
+[ Train | 010 / 020 ] loss = 0.87224 acc = 0.44932
+[ Val | 010 / 020 ] loss = 0.85323 acc = 0.46093
+Best model found at epoch 10. saving model. acc=0.46093
+[ Train | 011 / 020 ] loss = 0.85796 acc = 0.46047
+[ Val | 011 / 020 ] loss = 0.85979 acc = 0.46093
+[ Train | 012 / 020 ] loss = 0.85038 acc = 0.46807
+[ Val | 012 / 020 ] loss = 0.85236 acc = 0.45918
+[ Train | 013 / 020 ] loss = 0.83914 acc = 0.47436
+[ Val | 013 / 020 ] loss = 0.83794 acc = 0.47201
+Best model found at epoch 13. saving model. acc=0.47201
+[ Train | 014 / 020 ] loss = 0.83070 acc = 0.47861
+[ Val | 014 / 020 ] loss = 0.84588 acc = 0.46968
+[ Train | 015 / 020 ] loss = 0.82452 acc = 0.48307
+[ Val | 015 / 020 ] loss = 0.83806 acc = 0.46822
+[ Train | 016 / 020 ] loss = 0.81530 acc = 0.48905
+[ Val | 016 / 020 ] loss = 0.82606 acc = 0.47493
+Best model found at epoch 16. saving model. acc=0.47493
+[ Train | 017 / 020 ] loss = 0.80895 acc = 0.49564
+[ Val | 017 / 020 ] loss = 0.83434 acc = 0.48076
+Best model found at epoch 17. saving model. acc=0.48076
+[ Train | 018 / 020 ] loss = 0.80202 acc = 0.49959
+[ Val | 018 / 020 ] loss = 0.82064 acc = 0.47988
+[ Train | 019 / 020 ] loss = 0.79574 acc = 0.50436
+[ Val | 019 / 020 ] loss = 0.81722 acc = 0.46618
+[ Train | 020 / 020 ] loss = 0.78810 acc = 0.51003
+[ Val | 020 / 020 ] loss = 0.79626 acc = 0.49155
+Best model found at epoch 20. saving model. acc=0.49155
+Finish training
